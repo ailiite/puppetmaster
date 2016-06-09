@@ -1,3 +1,3 @@
-class::node {
+class role::node {
     include ::profile::node
 }
