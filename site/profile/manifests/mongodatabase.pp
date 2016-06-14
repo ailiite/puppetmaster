@@ -1,11 +1,8 @@
-class profiles::mongodatabase(
+class profiles::mongodatabase {
 
   $port     = 27017,
   $version  = '2.6.7',
   $remote   = true,
-
-){
-
 
   # Set bind address to 0.0.0.0 if remote is enabled, 127.0.0.1 if not
   # Merge remote into an address array if it's anything other than a boolean
