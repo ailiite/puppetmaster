@@ -1,2 +1,4 @@
 # puppetmaster
-r10k Repo
+
+Puppet master repository
+
