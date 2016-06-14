@@ -14,7 +14,6 @@ class profiles::mongodatabase {
   class { 'mongodb::server':
     ensure  => present,
     port    => 27017,
-    bind_ip => 0.0.0.0,
     verbose => true,
     auth    => true,
     journal => true,
