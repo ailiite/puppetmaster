@@ -1,3 +1,3 @@
-class role::node {
-    include ::profile::node
+class role::mongodb {
+    include ::profile::mongodb
 }
