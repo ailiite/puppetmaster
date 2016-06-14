@@ -1,5 +1,6 @@
 class role::mongo {
     include ::mongodb::server
+    include ::profile::mongo-params
 }
 
 mongodb::db { 'testdb' :
