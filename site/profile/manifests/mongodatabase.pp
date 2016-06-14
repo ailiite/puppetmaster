@@ -1,4 +1,4 @@
-class profiles::mongodb(
+class profiles::mongodatabase(
 
   $port     = 27017,
   $version  = '2.6.7',
